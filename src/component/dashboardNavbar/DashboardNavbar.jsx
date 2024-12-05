@@ -69,7 +69,7 @@ const Navbar = () => {
                     className='bg-[#00ade2] text-white px-4 py-2 rounded-3xl hover:bg-[#0fffe6]'
                     onClick={handleLoginClick}
                 >
-                    Login
+                    Logout
                 </button>
                 {/* <button
                     className='bg-[#00ade2] text-white px-4 py-2 rounded-3xl hover:bg-[#0fffe6]'

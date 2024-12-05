@@ -29,12 +29,15 @@ const Footer = () => {
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
 
                     <div>
-                        <h2 className="text-lg font-semibold mb-2">About Us</h2>
+                        <h2 className="text-lg font-semibold mb-2">Get Help</h2>
                         <div onClick={handleAboutClick} className='text-white hover:text-blue-300 cursor-pointer mb-2'>
-                            About us
+                            See All Services
                         </div>
                         <p className="text-white">
-                            ARTISANHUB.
+                            Contact Support
+                        </p>
+                        <p className="text-white">
+                            FAQs
                         </p>
                     </div>
 
@@ -42,10 +45,10 @@ const Footer = () => {
                     <div>
                         <h2 className="text-lg font-semibold mb-2">Quick Links</h2>
                         <ul>
-                            <li className="mb-1"><a onClick={handleHomePageClick} className="text-white hover:text-blue-300">Home</a></li>
-                            <li className="mb-1"><a onClick={handleFeaturesClick} className="text-white hover:text-blue-300">Features</a></li>
-                            <li className="mb-1"><a onClick={handlePricingClick} className="text-white hover:text-blue-300">Pricing</a></li>
-                            <li className="mb-1"><a onClick={handleContactClick} className="text-white hover:text-blue-300">Contact</a></li>
+                            <li className="mb-1"><a onClick={handleHomePageClick} className="text-white hover:text-blue-300">About Us</a></li>
+                            <li className="mb-1"><a onClick={handleFeaturesClick} className="text-white hover:text-blue-300">Privacy Policy</a></li>
+                            <li className="mb-1"><a onClick={handlePricingClick} className="text-white hover:text-blue-300">Terms And Condition</a></li>
+                        
                         </ul>
                     </div>
 

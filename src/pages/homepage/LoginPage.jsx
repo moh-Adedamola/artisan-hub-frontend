@@ -80,7 +80,8 @@ const LoginPage = () => {
                             </span>
                         </div>
                     </div>
-                    <div>
+                    <a>
+                    <div href={'/dashboard'}>
                         <button
                             type="submit"
                             className="w-full bg-blue-500 text-white p-3 rounded-lg hover:bg-blue-600 transition duration-300"
@@ -88,6 +89,7 @@ const LoginPage = () => {
                             Login
                         </button>
                     </div>
+                    </a>
                 </form>
 
                 <div className="flex justify-between mt-6 text-sm">
